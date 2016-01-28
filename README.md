@@ -1,2 +1,2 @@
 # magic
-magic website
+Website for MAGIC (Mentoring for Aspiring Girls in Computing)
