@@ -1,6 +1,6 @@
 .background1{     /*intro*/
   font-size: 60px;
-  background-color: #ff7373;
+  background-color: #ff7373; /*magic pink*/
   color: #ffffff;
 }
 .background2 {    /*about*/
@@ -10,6 +10,11 @@
 .background3 {    /*mentors*/
     background-color: #ffffff; /* White */
     color: #555555;
+}
+
+.bg-resources {
+    background-color: #474e5d;
+    color: #ffffff;
 }
 
 .background4 {      /*contact*/
@@ -35,7 +40,7 @@
     border-radius: 0;
     margin-bottom: 0;
     font-size: 16px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .navbar-nav li a:hover {
