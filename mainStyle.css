@@ -1,20 +1,44 @@
+body{
+  padding-top:30px;
+}
+
+.glyphicon {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999;
+}
+
+h3 {
+  padding: 20px 0 20px 0;
+}
 .background1{     /*intro*/
   font-size: 60px;
   background-color: #ff7373; /*magic pink*/
   color: #ffffff;
+  background-image: url("_imgs/group_blur.jpg");
+  background-position: center;
+  background-size: cover;
+
 }
+
 .background2 {    /*about*/
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+    background-color: #ffffff; /* Dark Blue */
+    color: #474e5d;
 }
+
 .background3 {    /*mentors*/
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: #474e5d; /* White */
+    color: #ffffff;
 }
 
 .bg-resources {
-    background-color: #474e5d;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #474e5d;
 }
 
 .background4 {      /*contact*/
@@ -43,8 +67,16 @@
     letter-spacing: 3px;
 }
 
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+}
+
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color: #ff7373 !important;
 }
 
 /*carousel*/
